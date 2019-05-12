@@ -74,6 +74,7 @@ public class EvolutionaryAlg {
 
     public ArrayList<Vertex> generateSolution(){
 
+        System.out.println("hehe");
         Random rnd = new Random();
         LocalSearch localSearch = new LocalSearch(vertexList, greedyAlg);
         Evaluator evaluator = new Evaluator();
