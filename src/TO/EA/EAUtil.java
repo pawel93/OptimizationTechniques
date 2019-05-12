@@ -9,6 +9,7 @@ public class EAUtil {
 
     public boolean validateSequence(BitSet index, int start, int end){
         boolean result = false;
+        System.out.println("hej hej");
         int i = start;
         while(i != end){
             result = result || index.get(i);
