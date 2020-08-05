@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c219d6fa-c25a-417d-972d-8cf274fdae18" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TO/EA/CommonSequenceFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TO/EA/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TO/EA/PopulationGenerationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TO/EA/PopulationGenerationStrategyImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TO/EA/PopulationSelectionStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TO/EA/SelectionStrategyWithRandomWorstSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TO/EA/SelectionStrategyWithWorstSubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TO/EA/EvolutionaryAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TO/EA/EvolutionaryAlg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TO/EA/Recombination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TO/EA/Recombination.java" afterDir="false" />
-    </list>
+    <list default="true" id="c219d6fa-c25a-417d-972d-8cf274fdae18" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TO/EA/EAUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="37">
@@ -52,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TO/EA/EvolutionaryAlg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="76">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -212,27 +198,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TO" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TO" type="462c0819:PsiDirectoryNode" />
-              <item name="EA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TO" type="462c0819:PsiDirectoryNode" />
-              <item name="GreedyAlg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TO" type="462c0819:PsiDirectoryNode" />
-              <item name="Util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -357,9 +322,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32915717" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.7266289" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.66288954" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.7733711" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.39235127" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -567,16 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/EA/EvolutionaryAlg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TO/EA/CommonSequenceFinder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-418">
@@ -593,6 +548,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TO/EA/EvolutionaryAlg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
