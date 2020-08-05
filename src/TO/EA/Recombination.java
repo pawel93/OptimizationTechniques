@@ -11,60 +11,12 @@ public class Recombination {
 
     private EAUtil util;
     private ArrayList<Vertex> vertexList;
+    private CommonSequenceFinder finder;
 
     public Recombination(ArrayList<Vertex> vertexList){
         this.util = new EAUtil();
         this.vertexList = vertexList;
-    }
-
-    public boolean compare(ArrayList<Vertex> parent, BitSet index, ArrayList<Vertex> sub, int start){
-        int k = start;
-        boolean result = true;
-        for(int j=0; j<sub.size(); j++){
-
-            if(parent.get(k).equals(sub.get(j)) && !index.get(k))
-                result &= true;
-            else
-                result &= false;
-            k = (k+1)%Const.SOLUTION_LENGTH;
-        }
-        return result;
-    }
-
-    public boolean solutionContainsSequence(ArrayList<Vertex> parent, BitSet index, ArrayList<Vertex> sub){
-
-
-        for(int i=0; i<parent.size(); i++){
-            boolean result = compare(parent, index, sub, i);
-            if(result){
-                util.setIndices(index, i, (i+sub.size())%Const.SOLUTION_LENGTH);
-                return true;
-            }
-        }
-        return false;
-    }
-
-    public ArrayList<ArrayList<Vertex>> findCommonSequences(ArrayList<Vertex> parent1, ArrayList<Vertex> parent2){
-        BitSet index1 = new BitSet(Const.SOLUTION_LENGTH);
-        BitSet index2 = new BitSet(Const.SOLUTION_LENGTH);
-        ArrayList<ArrayList<Vertex>> commonSequences = new ArrayList<>();
-
-        for(int i=Const.MAX_SEQUENCE; i>0; i--){
-
-            for(int j=0; j<parent1.size(); j++){
-
-                if(util.validateSequence(index1, j, (j+i)%Const.SOLUTION_LENGTH) ){
-
-                    ArrayList<Vertex> sub = util.createSubList(parent1, j, (j+i)%Const.SOLUTION_LENGTH);
-                    if(solutionContainsSequence(parent2, index2, sub)){
-                        commonSequences.add(sub);
-                        util.setIndices(index1, j, (j+i)%Const.SOLUTION_LENGTH);
-                    }
-                }
-            }
-
-        }
-        return commonSequences;
+        this.finder = new CommonSequenceFinder(util);
     }
 
     public void padWithRandomVertices(ArrayList<ArrayList<Vertex>> sequences){
@@ -86,9 +38,10 @@ public class Recombination {
 
     public ArrayList<Vertex> recombine(ArrayList<Vertex> parent1, ArrayList<Vertex> parent2){
 
-        ArrayList<ArrayList<Vertex>> seqences = findCommonSequences(parent1, parent2);
+        ArrayList<ArrayList<Vertex>> seqences = finder.findCommonSequences(parent1, parent2);
         padWithRandomVertices(seqences);
         Collections.shuffle(seqences);
+
         ArrayList<Vertex> child = new ArrayList<>();
         for(ArrayList<Vertex> seq: seqences){
             child.addAll(seq);
