@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c219d6fa-c25a-417d-972d-8cf274fdae18" name="Default" comment="" />
+    <list default="true" id="c219d6fa-c25a-417d-972d-8cf274fdae18" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TO/EA/parameters/MaxCommonSequenceParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TO/EA/parameters/SolutionLengthParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TO/EA/util/RecombinationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TO/EA/CSFUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TO/EA/CommonSequenceFinderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TO/EA/RecombinationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TO/EA/RecombinationUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/OptimizationTechniques.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OptimizationTechniques.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TO/EA/CommonSequenceFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TO/EA/recombination/CommonSequenceFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TO/EA/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TO/EA/parameters/Const.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TO/EA/EAUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TO/EA/util/CSFUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TO/EA/EvolutionaryAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TO/EA/EvolutionaryAlg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TO/EA/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TO/EA/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TO/EA/PopulationGenerationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TO/EA/population/PopulationGenerationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TO/EA/PopulationGenerationStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TO/EA/population/PopulationGenerationStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TO/EA/PopulationSelectionStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TO/EA/selection/PopulationSelectionStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TO/EA/Recombination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TO/EA/recombination/Recombination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TO/EA/SelectionStrategyWithRandomWorstSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TO/EA/selection/SelectionStrategyWithRandomWorstSubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TO/EA/SelectionStrategyWithWorstSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TO/EA/selection/SelectionStrategyWithWorstSubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TO/Util/ReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TO/Util/ReportTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,16 +43,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TO/EA/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="270">
+              <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,45 +60,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TO/EA/EvolutionaryAlg.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/EvolutionaryAlg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="97">
+              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TO/EA/Recombination.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-369">
-              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TO/EA/CommonSequenceFinder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="51" column="43" lean-forward="true" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TO/EA/EAUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/recombination/Recombination.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state relative-caret-position="272">
+              <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,49 +84,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TO/EA/PopulationSelectionStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TO/Util/Evaluator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TO/GreedyAlg/NearestNeihbor.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/util/CSFUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/kroA100.tsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/kroA100.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/recombination/CommonSequenceFinder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -152,6 +149,25 @@
         <option value="$PROJECT_DIR$/src/TO/EA/CommonSequenceFinder.java" />
         <option value="$PROJECT_DIR$/src/TO/EA/Recombination.java" />
         <option value="$PROJECT_DIR$/src/TO/EA/EAUtil.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/TO/EA/Const.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TO/EA/parameters/MaxCommonSequenceParameter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TO/EA/parameters/SolutionLengthParameter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TO/EA/CommonSequenceFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TO/EA/RecombinationUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TO/EA/Recombination.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TO/EA/EAUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TO/EA/CSFUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TO/EA/CommonSequenceFinderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TO/EA/EAUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TO/EA/RecombinationUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TO/EA/CSFUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TO/EA/RecombinationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TO/Util/ReportTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TO/EA/population/PopulationGenerationStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TO/EA/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TO/EA/EvolutionaryAlg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TO/EA/recombination/Recombination.java" />
       </list>
     </option>
   </component>
@@ -161,7 +177,23 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="OptimizationTechniques" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="OptimizationTechniques" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1300" />
@@ -173,7 +205,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -196,19 +227,136 @@
               <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
               <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="TO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
               <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="TO" type="462c0819:PsiDirectoryNode" />
+              <item name="EA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TO" type="462c0819:PsiDirectoryNode" />
+              <item name="EA" type="462c0819:PsiDirectoryNode" />
+              <item name="parameters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TO" type="462c0819:PsiDirectoryNode" />
+              <item name="EA" type="462c0819:PsiDirectoryNode" />
+              <item name="population" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TO" type="462c0819:PsiDirectoryNode" />
+              <item name="EA" type="462c0819:PsiDirectoryNode" />
+              <item name="recombination" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TO" type="462c0819:PsiDirectoryNode" />
+              <item name="EA" type="462c0819:PsiDirectoryNode" />
+              <item name="selection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TO" type="462c0819:PsiDirectoryNode" />
+              <item name="EA" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TO" type="462c0819:PsiDirectoryNode" />
+              <item name="GreedyAlg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TO" type="462c0819:PsiDirectoryNode" />
+              <item name="LS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TO" type="462c0819:PsiDirectoryNode" />
+              <item name="LS" type="462c0819:PsiDirectoryNode" />
+              <item name="LocalSearch.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OptimizationTechniques" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OptimizationTechniques" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="EA" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,7 +382,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TO.EA in OptimizationTechniques">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -243,6 +391,88 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CSFUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OptimizationTechniques" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TO.EA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TO.EA" />
+      <option name="MAIN_CLASS_NAME" value="TO.EA.CSFUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CSFUtilTest.createSubList_subListIsOnEdges_shouldReturnSubList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OptimizationTechniques" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TO.EA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TO.EA" />
+      <option name="MAIN_CLASS_NAME" value="TO.EA.CSFUtilTest" />
+      <option name="METHOD_NAME" value="createSubList_subListIsOnEdges_shouldReturnSubList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecombinationTest.padWithRandomVertices_shouldPadCommonSequences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OptimizationTechniques" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TO.EA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TO.EA" />
+      <option name="MAIN_CLASS_NAME" value="TO.EA.RecombinationTest" />
+      <option name="METHOD_NAME" value="padWithRandomVertices_shouldPadCommonSequences" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecombinationTest.recombine_shouldRecombineTwoParents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OptimizationTechniques" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TO.EA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TO.EA" />
+      <option name="MAIN_CLASS_NAME" value="TO.EA.RecombinationTest" />
+      <option name="METHOD_NAME" value="recombine_shouldRecombineTwoParents" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TO.EA in OptimizationTechniques" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OptimizationTechniques" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TO.EA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TO.EA" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -272,6 +502,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TO.EA in OptimizationTechniques" />
+        <item itemvalue="JUnit.RecombinationTest.recombine_shouldRecombineTwoParents" />
+        <item itemvalue="JUnit.RecombinationTest.padWithRandomVertices_shouldPadCommonSequences" />
+        <item itemvalue="JUnit.CSFUtilTest" />
+        <item itemvalue="JUnit.CSFUtilTest.createSubList_subListIsOnEdges_shouldReturnSubList" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -295,6 +534,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CSFUtilTest_setIndices_selectedIndicesAreInTheMiddle_shouldSetIndices - 2020.08.08 at 15h 30m 04s.xml">
+      <configuration name="CSFUtilTest.setIndices_selectedIndicesAreInTheMiddle_shouldSetIndices" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSFUtilTest_setIndices_selectedIndicesAreOnTheEdges_shouldSetIndices - 2020.08.08 at 15h 31m 34s.xml">
+      <configuration name="CSFUtilTest.setIndices_selectedIndicesAreOnTheEdges_shouldSetIndices" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSFUtilTest_createSubList_subListIsInTheMiddle_shouldReturnSubList - 2020.08.08 at 15h 36m 36s.xml">
+      <configuration name="CSFUtilTest.createSubList_subListIsInTheMiddle_shouldReturnSubList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSFUtilTest_createSubList_subListIsOnEdges_shouldReturnSubList - 2020.08.08 at 15h 37m 08s.xml">
+      <configuration name="CSFUtilTest.createSubList_subListIsOnEdges_shouldReturnSubList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CSFUtilTest - 2020.08.08 at 15h 37m 18s.xml">
+      <configuration name="CSFUtilTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecombinationTest_padWithRandomVertices_shouldPadCommonSequences - 2020.08.09 at 21h 22m 12s.xml">
+      <configuration name="RecombinationTest.padWithRandomVertices_shouldPadCommonSequences" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecombinationTest_padWithRandomVertices_shouldPadCommonSequences - 2020.08.09 at 21h 23m 59s.xml">
+      <configuration name="RecombinationTest.padWithRandomVertices_shouldPadCommonSequences" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecombinationTest_padWithRandomVertices_shouldPadCommonSequences - 2020.08.09 at 21h 24m 21s.xml">
+      <configuration name="RecombinationTest.padWithRandomVertices_shouldPadCommonSequences" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecombinationTest_padWithRandomVertices_shouldPadCommonSequences - 2020.08.09 at 22h 42m 05s.xml">
+      <configuration name="RecombinationTest.padWithRandomVertices_shouldPadCommonSequences" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecombinationTest_recombine_shouldRecombineTwoParents - 2020.08.09 at 22h 42m 12s.xml">
+      <configuration name="RecombinationTest.recombine_shouldRecombineTwoParents" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="6154000" />
   </component>
@@ -310,30 +581,29 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="DB Browser" />
-      <window_info id="Project Explorer" />
-      <window_info id="Job Explorer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19597316" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23624161" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="DB Execution Console" />
-      <window_info anchor="bottom" id="Console" />
+      <window_info id="DB Browser" order="7" />
+      <window_info id="Project Explorer" order="8" />
+      <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.34844193" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21671388" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29036826" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32915717" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.14022663" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34135976" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.39235127" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.44617563" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.1529745" />
+      <window_info anchor="bottom" id="DB Execution Console" order="11" />
+      <window_info anchor="bottom" id="Console" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -343,6 +613,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.3295302" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,6 +659,24 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TO/EA/CommonSequenceFinderTest.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TO/EA/CommonSequenceFinderTest.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
@@ -407,48 +696,24 @@
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/EA/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/Measures/Comparison.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/Measures/Comparison.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2346">
           <caret line="148" column="23" selection-start-line="148" selection-start-column="23" selection-end-line="148" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/Util/ReportTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" column="38" selection-start-line="24" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/Model/Vertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/kroA100.tsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/kroA100.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/GreedyAlg/GraspNN.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/GreedyAlg/GraspNN.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/GreedyAlg/NearestNeihbor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/GreedyAlg/NearestNeihbor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
@@ -461,110 +726,255 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/Util/Evaluator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/Util/Evaluator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/EA/PopulationGenerationStrategy.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TO/EA/SelectionStrategyWithWorstSubjectTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/parameters/MaxCommonSequenceParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <folding>
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/parameters/SolutionLengthParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/Model/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/kroA100.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/parameters/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/population/PopulationGenerationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/EA/PopulationGenerationStrategyImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/selection/PopulationSelectionStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/EA/SelectionStrategyWithRandomWorstSubject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/selection/SelectionStrategyWithRandomWorstSubject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/EA/SelectionStrategyWithWorstSubject.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/LS/LocalSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="-1139">
+          <caret line="75" column="19" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/EA/PopulationSelectionStrategy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/Util/ReportTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/EA/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/util/RecombinationUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/EA/EvolutionaryAlg.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TO/EA/PopulationGenerationStrategyTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/population/PopulationGenerationStrategyImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="187">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/selection/SelectionStrategyWithWorstSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/GreedyAlg/GraspGC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/util/CSFUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/EA/Recombination.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/recombination/CommonSequenceFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-369">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/EA/CommonSequenceFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="51" column="43" lean-forward="true" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TO/EA/EAUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state relative-caret-position="270">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/EvolutionaryAlg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TO/EA/CSFUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="127" column="20" lean-forward="true" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TO/EA/RecombinationUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TO/EA/CommonSequenceFinderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TO/EA/RecombinationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TO/EA/recombination/Recombination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

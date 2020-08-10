@@ -1,4 +1,4 @@
-package TO.EA;
+package TO.EA.parameters;
 
 public class Const {
 

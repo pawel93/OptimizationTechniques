@@ -1,6 +1,9 @@
 package TO.EA;
 
-import TO.Util.Algorithm;
+import TO.EA.parameters.Const;
+import TO.EA.population.PopulationGenerationStrategy;
+import TO.EA.recombination.Recombination;
+import TO.EA.selection.PopulationSelectionStrategy;
 import TO.Util.Evaluator;
 import TO.LS.LocalSearch;
 import TO.Model.Vertex;
@@ -17,12 +20,15 @@ public class EvolutionaryAlg {
     private Recombination recombination;
     private LocalSearch localSearch;
 
-    public EvolutionaryAlg(ArrayList<Vertex> vertexList, Algorithm greedyAlg){
-        this.populationGenerationStrategy = new PopulationGenerationStrategyImpl(vertexList, greedyAlg);
-        this.selectionStrategy = new SelectionStrategyWithWorstSubject();
+    public EvolutionaryAlg(LocalSearch localSearch,
+                           PopulationGenerationStrategy populationGenerationStrategy,
+                           PopulationSelectionStrategy populationSelectionStrategy,
+                           Recombination recombination){
+        this.populationGenerationStrategy = populationGenerationStrategy;
+        this.selectionStrategy = populationSelectionStrategy;
+        this.localSearch = localSearch;
+        this.recombination = recombination;
         this.evaluator = new Evaluator();
-        this.localSearch = new LocalSearch(vertexList, greedyAlg);
-        this.recombination = new Recombination(vertexList);
     }
 
     public ArrayList<Vertex> findBestIndividualInThePopulation(ArrayList<ArrayList<Vertex>> population){

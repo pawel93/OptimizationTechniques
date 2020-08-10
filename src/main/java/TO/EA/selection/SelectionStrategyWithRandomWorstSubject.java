@@ -1,5 +1,6 @@
-package TO.EA;
+package TO.EA.selection;
 
+import TO.EA.selection.PopulationSelectionStrategy;
 import TO.Model.Vertex;
 import TO.Util.Evaluator;
 

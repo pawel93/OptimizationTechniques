@@ -1,6 +1,15 @@
 package TO.EA;
 
+import TO.EA.parameters.MaxCommonSequenceParameter;
+import TO.EA.parameters.SolutionLengthParameter;
+import TO.EA.population.PopulationGenerationStrategy;
+import TO.EA.population.PopulationGenerationStrategyImpl;
+import TO.EA.recombination.CommonSequenceFinder;
+import TO.EA.recombination.Recombination;
+import TO.EA.selection.PopulationSelectionStrategy;
+import TO.EA.selection.SelectionStrategyWithWorstSubject;
 import TO.GreedyAlg.NearestNeihbor;
+import TO.LS.LocalSearch;
 import TO.Model.Vertex;
 import TO.Util.XmlReader;
 import org.xml.sax.SAXException;
@@ -16,8 +25,16 @@ public class Main {
         ArrayList<Vertex> vertexList = XmlReader.getData();
         NearestNeihbor NN = new NearestNeihbor(vertexList);
 
+        LocalSearch localSearch = new LocalSearch(vertexList, NN);
+        PopulationGenerationStrategy populationGenerationStrategy = new PopulationGenerationStrategyImpl(localSearch);
+        PopulationSelectionStrategy populationSelectionStrategy = new SelectionStrategyWithWorstSubject();
 
-        EvolutionaryAlg evolutionaryAlg = new EvolutionaryAlg(vertexList, NN);
+        MaxCommonSequenceParameter maxCommonSequenceParameter = new MaxCommonSequenceParameter();
+        SolutionLengthParameter solutionLengthParameter = new SolutionLengthParameter();
+        CommonSequenceFinder commonSequenceFinder = new CommonSequenceFinder(maxCommonSequenceParameter, solutionLengthParameter);
+        Recombination recombination = new Recombination(vertexList, commonSequenceFinder, solutionLengthParameter);
+
+        EvolutionaryAlg evolutionaryAlg = new EvolutionaryAlg(localSearch, populationGenerationStrategy, populationSelectionStrategy, recombination);
         ArrayList<Vertex> evolutionSolution = evolutionaryAlg.generateSolution();
 
     }

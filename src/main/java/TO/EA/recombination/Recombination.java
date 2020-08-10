@@ -1,26 +1,33 @@
-package TO.EA;
+package TO.EA.recombination;
 
+import TO.EA.parameters.Const;
+import TO.EA.parameters.MaxCommonSequenceParameter;
+import TO.EA.parameters.SolutionLengthParameter;
+import TO.EA.util.RecombinationUtil;
 import TO.Model.Vertex;
 
 import java.util.ArrayList;
-import java.util.BitSet;
 import java.util.Collections;
 import java.util.Random;
 
 public class Recombination {
 
-    private EAUtil util;
+    private RecombinationUtil util;
     private ArrayList<Vertex> vertexList;
     private CommonSequenceFinder finder;
+    private int SOLUTION_LENGTH;
 
-    public Recombination(ArrayList<Vertex> vertexList){
-        this.util = new EAUtil();
+    public Recombination(ArrayList<Vertex> vertexList,
+                         CommonSequenceFinder commonSequenceFinder,
+                         SolutionLengthParameter solutionLengthParameter){
+        this.util = new RecombinationUtil();
         this.vertexList = vertexList;
-        this.finder = new CommonSequenceFinder(util);
+        this.finder = commonSequenceFinder;
+        this.SOLUTION_LENGTH = solutionLengthParameter.getSolutionLengthValue();
     }
 
     public void padWithRandomVertices(ArrayList<ArrayList<Vertex>> sequences){
-        int missing = Const.SOLUTION_LENGTH - util.findLength(sequences);
+        int missing = SOLUTION_LENGTH - util.findLength(sequences);
         Random random = new Random();
         ArrayList<Vertex> filtered = util.filterVertexList(sequences, vertexList);
 

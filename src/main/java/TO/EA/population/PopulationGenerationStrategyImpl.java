@@ -1,5 +1,7 @@
-package TO.EA;
+package TO.EA.population;
 
+import TO.EA.parameters.Const;
+import TO.EA.population.PopulationGenerationStrategy;
 import TO.LS.LocalSearch;
 import TO.Model.Vertex;
 import TO.Util.Algorithm;
@@ -7,12 +9,12 @@ import TO.Util.Algorithm;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class PopulationGenerationStrategyImpl implements PopulationGenerationStrategy{
+public class PopulationGenerationStrategyImpl implements PopulationGenerationStrategy {
 
     private LocalSearch localSearch;
 
-    public PopulationGenerationStrategyImpl(ArrayList<Vertex> vertexList, Algorithm greedyAlg){
-        localSearch = new LocalSearch(vertexList, greedyAlg);
+    public PopulationGenerationStrategyImpl(LocalSearch localSearch){
+        this.localSearch = localSearch;
     }
 
     public ArrayList<ArrayList<Vertex>> generatePopulation(){
@@ -20,7 +22,7 @@ public class PopulationGenerationStrategyImpl implements PopulationGenerationStr
         Random rnd = new Random();
         ArrayList<ArrayList<Vertex>> population = new ArrayList<>();
 
-        for(int i=0; i<Const.POPULATION_SIZE; i++){
+        for(int i = 0; i< Const.POPULATION_SIZE; i++){
             ArrayList<Vertex> result = localSearch.generateSolution(rnd.nextInt(100));
             population.add(result);
         }
