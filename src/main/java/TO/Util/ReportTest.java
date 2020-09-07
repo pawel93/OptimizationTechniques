@@ -30,8 +30,8 @@ public class ReportTest {
         LocalSearch localSearch = new LocalSearch(vertexList, NN);
         MSLS multipleLS = new MSLS(vertexList, NN);
 
-        EvolutionaryAlg evolutionaryAlg = new EvolutionaryAlg(vertexList, NN);
-        ArrayList<Vertex> evolutionSolution = evolutionaryAlg.generateSolution();
+        //EvolutionaryAlg evolutionaryAlg = new EvolutionaryAlg(vertexList, NN);
+        //ArrayList<Vertex> evolutionSolution = evolutionaryAlg.generateSolution();
 
         Report report = new Report("MSLS.txt");
         multipleLS.generateReport(report);
